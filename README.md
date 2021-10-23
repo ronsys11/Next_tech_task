@@ -16,6 +16,7 @@ The balls are initially filled in the loading bucket, due to the tapering base o
 
 
 Guide on using the keypad :
+
 1-Enter the input value for Motor 1, 0 < value < 256
 
 2-press A to confirm the value.
