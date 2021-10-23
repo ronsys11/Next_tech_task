@@ -10,9 +10,15 @@ Here is the 3d design
 
 How this machine works
 
-1- The balls are initially filled in the loading bucket
-2- Due to the tapering base of the bucket balls align with the centre hole
-3- They are stopped from enting into the feeding tube using another dc motor which uses rotary to linear mechanism to block the balls.
-4- The user can then start entering the speed with which they would want Motor 1 and motor 2 to rrun at run at, Once the motors are running they can on the switch which would let    the balls enter the feeding tube.
+The balls are initially filled in the loading bucket, Due to the tapering base of the bucket balls align with the centre hole. They are stopped from enting into the feeding tube using another dc motor which uses rotary to linear mechanism to block the balls. The user can then start entering the speed with which they would want Motor 1 and motor 2 to rrun at run at, Once the motors are running they can on the switch which would let the balls enter the feeding tube.
 
 ![image](https://user-images.githubusercontent.com/84351843/138547093-1a92aa29-2dbe-4553-9c45-0c4a4bf03258.png)
+
+
+Guide on using the keypad :
+1-Enter the input value for Motor 1, 0 < value < 256
+2-press A to confirm the value.
+3-Enter the value for motor 2, 0 < value < 256.
+4-Press B to confirm the value
+also
+Press C to reset the values
