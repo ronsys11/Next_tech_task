@@ -26,7 +26,7 @@ Guide on using the keypad :
 
 also
 
-Press C to reset the values
+Press C to reset the values.
 
 Here is the the link for the tinkercad project
 https://www.tinkercad.com/things/jMCo1hRqNzP-bhaullz-shooting-machine
