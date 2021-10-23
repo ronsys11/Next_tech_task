@@ -17,10 +17,15 @@ The balls are initially filled in the loading bucket, due to the tapering base o
 
 Guide on using the keypad :
 1-Enter the input value for Motor 1, 0 < value < 256
+
 2-press A to confirm the value.
+
 3-Enter the value for motor 2, 0 < value < 256.
-4-Press B to confirm the value \n
+
+4-Press B to confirm the value 
+
 also
+
 Press C to reset the values
 
 Here is the the link for the tinkercad project
