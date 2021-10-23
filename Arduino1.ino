@@ -46,6 +46,7 @@ void loop()
      case 'C':
    
      analogWrite(10, 0); //Complete reset button 
+      
      first = 0;
      break;
   }
