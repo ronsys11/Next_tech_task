@@ -1,5 +1,5 @@
 # Next_tech_task
-Here is the 3d design
+Here is the 3D design
 
 
 ![isometric](https://user-images.githubusercontent.com/84351843/138546649-4a25aeb8-fb40-42d9-ae14-94cbb7103fd8.png)
