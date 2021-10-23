@@ -1,14 +1,7 @@
 #include <Keypad.h>
 #include <Wire.h> 
 
-
-
-
-
-
 long first = 0;
-long second = 0;
-double total = 0;
 
 char customKey;
 const byte ROWS = 4;
@@ -28,48 +21,32 @@ Keypad customKeypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 void setup()
 {
    pinMode(9, OUTPUT);
-    pinMode(10, OUTPUT);
-  
-
+   pinMode(10, OUTPUT);
 
 }
 
 
 void loop()
 {
+  
 
   customKey = customKeypad.getKey();
   switch(customKey) 
   {
-  case '0' ... '9': // This keeps collecting the first value until a operator is pressed "+-*/"
+     case '0' ... '9': // This keeps collecting the input for motor1
    
-    first = first * 10 + (customKey - '0');
-   
-    break;
+     first = first * 10 + (customKey - '0');
+     break;
+  
+     case 'A': //Button which instructs motor 1 to start running acc to input
+     
+     analogWrite(10,first);
+     break;
 
- 
-
-  case 'A':
+     case 'Z':
    
-    
-    
-    
-   
-   
-
-   
-
-   
-    analogWrite(10,first);
-    
-    
-    break;
-
-  case 'Z':
-    total = 0;
-     analogWrite(10,0);
-    break;
+     analogWrite(10, 0); //Complete reset button 
+     first = 0;
+     break;
   }
 }
-
-
