@@ -35,7 +35,10 @@ https://www.tinkercad.com/things/jMCo1hRqNzP-bhaullz-shooting-machine
 
 
 My references:
+
 https://www.youtube.com/watch?v=5OVihGGBGtY
+
 https://playground.arduino.cc/Code/Keypad/
+
 https://www.arduino.cc/reference/en/
 
