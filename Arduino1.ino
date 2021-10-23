@@ -33,21 +33,21 @@ void loop()
   customKey = customKeypad.getKey();
   switch(customKey) 
   {
-     case '0' ... '9': // This keeps collecting the input for motor1
+      case '0' ... '9': // This keeps collecting the input for motor1
    
-     first = first * 10 + (customKey - '0');
-     break;
+      first = first * 10 + (customKey - '0');
+      break;
   
-     case 'A': //Button which instructs motor 1 to start running acc to input
+      case 'A': //Button which instructs motor 1 to start running acc to input
      
-     analogWrite(10,first);
-     break;
+      analogWrite(10,first);
+      break;
 
-     case 'C':
+      case 'C':
    
      analogWrite(10, 0); //Complete reset button 
       
-     first = 0;
-     break;
+      first = 0;
+      break;
   }
 }
