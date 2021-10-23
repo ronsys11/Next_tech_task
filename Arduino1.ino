@@ -43,7 +43,7 @@ void loop()
      analogWrite(10,first);
      break;
 
-     case 'Z':
+     case 'C':
    
      analogWrite(10, 0); //Complete reset button 
      first = 0;
