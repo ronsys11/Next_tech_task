@@ -16,6 +16,7 @@ The balls are initially filled in the loading bucket, due to the tapering base o
 
 
 Guide on using the keypad :
+
 1-Enter the input value for e < 256
 
 2-press A to confirm the value.
@@ -30,3 +31,11 @@ Press C to reset the values.
 
 Here is the the link for the tinkercad project
 https://www.tinkercad.com/things/jMCo1hRqNzP-bhaullz-shooting-machine
+
+
+
+My references:
+https://www.youtube.com/watch?v=5OVihGGBGtY
+https://playground.arduino.cc/Code/Keypad/
+https://www.arduino.cc/reference/en/
+
