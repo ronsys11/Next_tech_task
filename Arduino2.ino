@@ -51,14 +51,14 @@ void loop()
    
  
 
-  case 'C': //Button which instructs motor 2 to start running acc to input
+  case 'B': //Button which instructs motor 2 to start running acc to input
       
      analogWrite(10,second);
     
     
     break;
 
-  case 'Z': //Complete reset button 
+  case 'C': //Complete reset button 
    
      analogWrite(10,0);
      second = 0;
